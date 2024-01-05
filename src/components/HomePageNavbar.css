@@ -1,0 +1,80 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navBar {
+  font-size: 85%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginUserElDiv {
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  justify-content: space-between;
+}
+
+.toggleUser {
+  background-color: white;
+  color: rgb(83, 100, 186);
+  border: 0px;
+  height: 50px;
+  width: 60px;
+  padding-bottom: 11px;
+}
+
+.toggleUser:active {
+  background-color: white;
+  color: rgb(83, 100, 186);
+}
+
+.toggleUser:hover {
+  background-color: white;
+  color: rgb(83, 100, 186);
+}
+
+.userIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.dropMenuUser {
+  display: flex;
+  width: 11vw;
+  height: 22vh;
+}
+
+.dropItemUser {
+  height: 5vh;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.dropItemUser:hover {
+  background-color: rgb(215, 227, 250);
+}
+
+.dropUserameDiv {
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  padding-bottom: 4%;
+  font-style: italic;
+  font-size: 21px;
+  border-bottom: 1px solid rgb(83, 100, 186);
+  border-right: 1px solid rgb(83, 100, 186);
+  border-bottom-right-radius: 20px;
+  margin-bottom: 3.5%;
+}
+
+.loginLabel {
+  color: rgb(59, 118, 186);
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

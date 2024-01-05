@@ -1,0 +1,42 @@
+.appRootDiv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.selectDiv {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  padding: 2%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.selectElDiv {
+  border-radius: 20px;
+  width: 50%;
+  height: 100%;
+  border-color: 2px solid rgb(108, 161, 222);
+}
+
+.initAppDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.appBtn {
+  width: 50%;
+  height: 7%;
+  margin-top: 4%;
+}
+
+.labelNotFollow {
+  padding-left: 25%;
+  padding-top: 15%;
+}

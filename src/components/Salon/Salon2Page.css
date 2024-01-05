@@ -1,0 +1,247 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 1.5%;
+  border: 1px solid rgb(108, 161, 222);
+  border-radius: 20px;
+  padding: 1% 3% 1% 3%;
+  height: 91vh;
+  width: 96vw;
+}
+
+.headerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoutBtn {
+  font-size: medium;
+  width: 10%;
+  height: 80%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 0px;
+  border-bottom: 1px solid rgb(108, 161, 222);
+  border-left: 1px solid rgb(108, 161, 222);
+  border-color: rgb(108, 161, 222);
+  border-bottom-color: rgb(108, 161, 222);
+  background-color: white;
+}
+
+.logoutBtn:hover {
+  transform: scale(1.01);
+  transition: background-color 0.3s, transform 0.3s;
+  color: rgb(108, 161, 222);
+}
+
+.navEl {
+  color: rgb(55, 95, 140);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 10% 0% 10%;
+  font-size: medium;
+}
+
+.mainContentDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-height: 72vh;
+  align-items: center;
+}
+
+.appContentDiv {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100vh;
+  max-height: 75vh;
+}
+
+.picturesDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  padding: 2% 2% 2% 0%;
+}
+
+.salonPageServicesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 1%;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 2% 2% 2% 0%;
+  font-size: x-large;
+}
+
+.salonPageServiceDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(78, 125, 178);
+  width: 70vw;
+  padding: 1.8% 2% 1% 2%;
+  border-radius: 10px;
+}
+
+.serviceDiv:hover {
+  transform: scale(1.01);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.appNotFound {
+  margin-top: 20%;
+}
+
+/*---------------------------------------------------------------*/
+
+.salonPageInfoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.salonPageInfoLeftDiv {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  padding: 3%;
+}
+
+.salonPageInfoRightDiv {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  margin: 1%;
+  padding: 3% 5% 3% 5%;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.salonPageMark {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 20%;
+  height: 13%;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.salonPageInfoLine {
+  margin: 2% 0% 2% 0%;
+}
+
+.changePassSalonSpan:hover {
+  transform: scale(1.01);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.changePassModal {
+  width: 35%;
+  height: 60%;
+}
+
+.listHSModal {
+  width: 60%;
+  height: 70%;
+}
+
+.addHSModal {
+  width: 40%;
+  height: 50%;
+}
+
+.changeTimeModal {
+  width: 40%;
+  height: 40%;
+}
+
+.workTimeSalonPageGlobalDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.workTimeSalonPageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  font-size: x-large;
+  margin: 2%;
+}
+
+.workTimeSalonPageDiv:hover {
+  transform: scale(1.01);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.workTimeChangeSalonPageGlobalDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workTimeChangeSalonPageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fromTimeChangeSalonPageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 48%;
+}
+
+.toTimeChangeSalonPageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 48%;
+}
+
+.dayChangeTimeSalonPageLabel {
+  border-bottom: 1px solid rgb(78, 125, 178);
+  border-radius: 20px;
+  padding: 1.5%;
+  margin-bottom: 5%;
+  width: 40%;
+  text-align: center;
+}
+
+.navSalonPage {
+  background-color: rgba(210, 238, 249, 0.429);
+}
+
+.workTimeLabelDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(167, 208, 255);
+}

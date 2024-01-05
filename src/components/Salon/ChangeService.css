@@ -1,0 +1,22 @@
+.changeCostDiv {
+  display: flex;
+  padding: 1%;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.changeCostInput {
+  height: 30px;
+  width: 40%;
+}
+
+.changeCostBtn {
+  height: 35px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(98, 111, 221);
+  color: white;
+  border-color: white;
+}

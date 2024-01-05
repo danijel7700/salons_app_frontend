@@ -1,0 +1,17 @@
+.changePassDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.changePassElementDiv {
+  width: 80%;
+}
+
+.btnChangePasswordSalon {
+  width: 80%;
+  margin-top: 7%;
+}
